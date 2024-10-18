@@ -1,0 +1,45 @@
+img {
+    border-radius: 25px;
+    border: solid 5px;
+    border-color: blue;
+    }
+    
+    h2 {
+    font-size: 18px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    }
+    
+    body {
+      background-color: aquamarine;
+      font-family: Trebuchet MS;
+      color: navy;
+      text-align: center;
+    }
+    
+    a {
+      background-color: blue;
+      font-size: 20px;
+      border-radius: 10px;
+      padding: 0 10px;
+      display: block;
+      margin: 10px;
+      color: aquamarine;
+      text-align: center;
+      size: 25%;
+    }
+  
+    button {
+      background-color: aquamarine;
+      border: 0;
+    }
+    @media screen and (min-width: 601px) {
+        button {
+          width: 200px; height: 50px; 
+        }      
+      }
+      @media screen and (max-width: 600px) {
+        button {
+          width: 300px; height: 75px;  
+        }
+      }
